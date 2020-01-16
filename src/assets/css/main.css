@@ -1,0 +1,55 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.test {
+    color: blue;
+}
+
+.color {
+    background: rgb(253,93,50);
+    background: -moz-linear-gradient(183deg, rgba(253,93,50,1) 0%, rgba(249,78,47,1) 24%, rgba(242,46,46,1) 55%, rgba(245,60,45,1) 82%, rgba(247,69,45,1) 99%);
+    background: -webkit-linear-gradient(183deg, rgba(253,93,50,1) 0%, rgba(249,78,47,1) 24%, rgba(242,46,46,1) 55%, rgba(245,60,45,1) 82%, rgba(247,69,45,1) 99%);
+    background: linear-gradient(183deg, rgba(253,93,50,1) 0%, rgba(249,78,47,1) 24%, rgba(242,46,46,1) 55%, rgba(245,60,45,1) 82%, rgba(247,69,45,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd5d32",endColorstr="#f7452d",GradientType=1);
+    min-height: 100vh;
+}
+
+
+.beCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.border {
+    border: 1px solid rgba(253,93,50,1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#fff;
+    border-radius: 17px;
+}
+
+.border2 {
+    border: 1px solid rgba(253,93,50,1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(233, 178, 157);
+    border-radius: 17px;
+}
+
+.del {
+    border-left: 2.7px solid #d4d4d4;
+    box-sizing: border-box;
+    min-height: 125px;
+    text-align: center;
+    display: inline-flex;
+    background-color:#e0d5d5;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    cursor: pointer;
+}
