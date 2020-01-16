@@ -15,7 +15,7 @@ function List({ inputCurency = "USD", money, country, perOne, calculateMoney, co
         <>
             <div class="d-flex justify-content-between flex-row">
                 <div class="px-4 d-flex justify-content-center flex-column">
-                    <div class="p-2 d-flex justify-content-between">
+                    <div class="p-2 d-flex justify-content-between w-75">
                         <div class="mr-5 my-auto">
                             <span> { money.toUpperCase() }</span>
                         </div>
