@@ -1,0 +1,9 @@
+kind: pipeline
+name: trydrone
+
+steps:
+  - name: test
+    image: node:latest
+    commands:
+      - npm install
+      - echo "test"
