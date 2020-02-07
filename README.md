@@ -8,6 +8,6 @@ i am using this API <https://exchangeratesapi.io/>
 
 this React is build pure with Webpack and Babel;
 
-my please if you want to use this package, give it try:
+my pleasure if you want to use this package, give it try:
 
 ```git clone <https://github.com/harmnot/react-webpack-exchange-rates.git>```
