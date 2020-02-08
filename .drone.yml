@@ -9,4 +9,4 @@ steps:
       username: ci
       key: ${SSH_KEY}
       script:
-        - echo "hello"
+        - echo "hello there"
