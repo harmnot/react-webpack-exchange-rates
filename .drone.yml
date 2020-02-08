@@ -6,4 +6,5 @@ steps:
     image: node:latest
     commands:
       - npm install
-      - docker-compose up -d
+      - ls
+      - pwd
