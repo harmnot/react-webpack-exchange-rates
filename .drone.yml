@@ -6,4 +6,4 @@ steps:
     image: node:latest
     commands:
       - npm install
-      - echo "test"
+      - docker-compose up -d
