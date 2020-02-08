@@ -3,10 +3,5 @@ name: test
 
 steps:
   - name: ssh commands
-    image: appleboy/drone-ssh
-    settings:
-      host: 157.230.43.114
-      username: ci
-      key: ${SSH_KEY}
-      script:
-        - echo "hello there"
+    command:
+      - ls
