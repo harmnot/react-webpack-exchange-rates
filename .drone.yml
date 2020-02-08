@@ -1,11 +1,17 @@
 kind: pipeline
-name: trydrone
+type: ssh
+name: default
+
+server:
+  host: 157.230.43.114
+  user: ci
+  password: edu
 
 steps:
-  - name: deploy
+  - name: build
     image: node:latest
     commands:
-      - npm install
-      - ls
+      - mkdir test2
       - pwd
-      - npm run dev
+      - touch test.txt
+      - ls
