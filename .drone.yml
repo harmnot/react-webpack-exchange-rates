@@ -1,9 +1,9 @@
 kind: pipeline
-name: test
+name: trydrone
 
 steps:
-  - name: ssh commands
+  - name: deploy
     image: node:latest
-    command:
+    commands:
       - npm install
-      - npm test
+      - docker --version
