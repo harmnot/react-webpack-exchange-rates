@@ -1,5 +1,4 @@
 kind: pipeline
-type: docker
 name: default
 
 steps:
@@ -10,5 +9,6 @@ steps:
       username: ci
       password: edu
       port: 22
+      key: ${SSH_KEY}
       script:
         - mkdir test
