@@ -1,17 +1,13 @@
 kind: pipeline
-type: ssh
 name: default
 
-server:
-  host: 157.230.43.114
-  user: ci
-  password: edu
-
 steps:
-  - name: build
-    image: node:latest
-    commands:
-      - mkdir test2
-      - pwd
-      - touch test.txt
-      - ls
+  - name: ssh commands
+    image: appleboy/drone-ssh:1.5.5
+    settings:
+      host: 157.230.43.114
+      username: ci
+      password: edu
+      port: 22
+      script:
+        - mkdir test
