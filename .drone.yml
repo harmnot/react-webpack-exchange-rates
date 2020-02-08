@@ -6,4 +6,4 @@ steps:
     image: node:latest
     commands:
       - npm install
-      - docker --version
+      - docker --help
