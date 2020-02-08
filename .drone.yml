@@ -2,9 +2,10 @@ kind: pipeline
 name: trydrone
 
 steps:
-  - name: test
+  - name: deploy
     image: node:latest
     commands:
       - npm install
       - ls
       - pwd
+      - npm run dev
