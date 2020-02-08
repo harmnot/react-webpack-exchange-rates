@@ -3,5 +3,7 @@ name: test
 
 steps:
   - name: ssh commands
+    image: node:latest
     command:
-      - ls
+      - npm install
+      - npm test
