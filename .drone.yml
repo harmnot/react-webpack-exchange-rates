@@ -1,0 +1,9 @@
+kind: pipeline
+name: trydrone
+
+steps:
+  - name: deploy
+    image: node:latest
+    commands:
+      - npm install
+      - docker --help
